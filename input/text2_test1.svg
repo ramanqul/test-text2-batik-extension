@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/css" href="extension.css" ?>
+
+<svg xmlns="http://www.w3.org/2000/svg" 
+	 xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 xmlns:ext="http://xml.apache.org/batik/ext"
+	 id="body" width="450" height="500" viewBox="0 0 450 500">
+	
+   <title>Test of Text wrapping stuff.</title>
+   
+   <g requiredExtensions="http://xml.apache.org/batik/ext/text2/1.0" id="content">
+
+      <text class="title" x="50%" y="80">Simple Element Text</text>
+
+	  <ext:text2 x="50%" y="120" background-color="red" class="title">
+			Text2 Tag Element Text!
+	  </ext:text2>
+   </g>
+
+   <use xlink:href="batikLogo.svg#Batik_Tag_Box" />
+</svg>
